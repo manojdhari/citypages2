@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portable Toilet Rentals Across the USA | 247 Porta Potty Rental</title>
+    <meta name="description" content="Affordable, clean, and fast portable toilet rentals across all 50 states. Call 247 Porta Potty Rental at (833) 659‑9080 for a free quote today.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://247portapottyrental.com/" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="247 Porta Potty Rental | Portable Toilets Across the USA">
+    <meta property="og:description" content="Affordable portable toilet rentals nationwide. Call (833) 659‑9080 for a free quote.">
+    <meta property="og:url" content="https://247portapottyrental.com/">
+    <meta property="og:type" content="website">
+    
+    <!-- LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "247 Porta Potty Rental",
+        "image": "https://247portapottyrental.com/assets/logo.png",
+        "telephone": "+18336599080",
+        "url": "https://247portapottyrental.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US"
+        },
+        "serviceArea": {
+            "@type": "Country",
+            "name": "United States"
+        },
+        "priceRange": "$$",
+        "openingHours": "Mo-Su 00:00-23:59"
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #f39c12;
+        }
+
+        .phone-link {
+            background: #e74c3c;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .phone-link:hover {
+            background: #c0392b;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/placeholder.svg?height=600&width=1200') center/cover;
+            color: white;
+            text-align: center;
+            padding: 8rem 0;
+            position: relative;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero-content p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+        }
+
+        .cta-btn:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+        }
+
+        /* Features Section */
+        .features {
+            padding: 5rem 0;
+            background: #f8f9fa;
+        }
+
+        .features h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #2c3e50;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 5rem 0;
+        }
+
+        .services h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #2c3e50;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-item {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .service-item:hover {
+            transform: scale(1.05);
+        }
+
+        .service-item h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        /* States Section */
+        .states-section {
+            padding: 5rem 0;
+            background: #f8f9fa;
+        }
+
+        .states-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        .states-section p {
+            text-align: center;
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+            color: #666;
+        }
+
+        .state-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            list-style: none;
+        }
+
+        .state-links li a {
+            display: block;
+            background: white;
+            padding: 1rem;
+            text-decoration: none;
+            color: #2c3e50;
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            font-weight: 500;
+        }
+
+        .state-links li a:hover {
+            background: #3498db;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 5rem 0;
+            background: #2c3e50;
+            color: white;
+        }
+
+        .testimonials h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .testimonial {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .testimonial-author {
+            font-weight: bold;
+            color: #f39c12;
+        }
+
+        /* FAQ Section */
+        .faq {
+            padding: 5rem 0;
+        }
+
+        .faq h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #2c3e50;
+        }
+
+        .faq-item {
+            background: white;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .faq-question {
+            background: #3498db;
+            color: white;
+            padding: 1rem;
+            cursor: pointer;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .faq-answer {
+            padding: 1rem;
+            display: none;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Footer */
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            color: #3498db;
+        }
+
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a:hover {
+            color: #3498db;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .state-links {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <strong>247 Porta Potty Rental</strong>
+            </div>
+            <nav class="nav-links">
+                <a href="about-us.html?c=8336599080">About Us</a>
+                <a href="contact-us.html?c=8336599080">Contact</a>
+                <a href="privacy-policy.html?c=8336599080">Privacy Policy</a>
+                <a href="terms-of-service.html?c=8336599080">Terms</a>
+                <a href="tel:+18336599080" class="phone-link">📞 (833) 659‑9080</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>America's #1 Portable Toilet Rental Service</h1>
+            <p>Clean, reliable, and affordable portable toilets delivered anywhere in the USA. Available 24/7 for construction sites, events, and emergencies.</p>
+            <a class="cta-btn" href="tel:+18336599080">Get Free Quote: (833) 659‑9080</a>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose 247 Porta Potty Rental?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Fast Delivery</h3>
+                    <p>Same-day and next-day delivery available nationwide. Emergency rentals within 2 hours in major cities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3>Premium Clean Units</h3>
+                    <p>All units are thoroughly sanitized and stocked with hand sanitizer, toilet paper, and air fresheners.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Competitive Pricing</h3>
+                    <p>Best rates guaranteed with transparent pricing. No hidden fees or surprise charges.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏗️</div>
+                    <h3>Construction Ready</h3>
+                    <p>Heavy-duty units designed for construction sites with secure locks and vandal-resistant features.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎉</div>
+                    <h3>Event Specialists</h3>
+                    <p>Luxury restroom trailers and standard units perfect for weddings, festivals, and corporate events.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Regular Maintenance</h3>
+                    <p>Weekly cleaning and maintenance service included. Emergency service calls available 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+        <div class="container">
+            <h2>Our Rental Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Standard Porta Potties</h3>
+                    <p>Basic units perfect for construction sites and outdoor events</p>
+                </div>
+                <div class="service-item">
+                    <h3>Deluxe Restrooms</h3>
+                    <p>Enhanced units with hand washing stations and better ventilation</p>
+                </div>
+                <div class="service-item">
+                    <h3>ADA Compliant Units</h3>
+                    <p>Wheelchair accessible restrooms meeting all ADA requirements</p>
+                </div>
+                <div class="service-item">
+                    <h3>Luxury Restroom Trailers</h3>
+                    <p>High-end mobile restrooms for weddings and upscale events</p>
+                </div>
+                <div class="service-item">
+                    <h3>Hand Washing Stations</h3>
+                    <p>Standalone hand washing units with soap and paper towels</p>
+                </div>
+                <div class="service-item">
+                    <h3>Emergency Rentals</h3>
+                    <p>24/7 emergency service for disaster relief and urgent needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- States List -->
+    <section class="states-section">
+        <div class="container">
+            <h2>Portable Toilet Rentals by State</h2>
+            <p>Select your state below to view local cities and request a free quote. We serve all 50 states with fast, reliable service.</p>
+            <ul class="state-links">
+                <li><a href="https://al.247portapottyrental.com">Alabama</a></li>
+                <li><a href="https://ak.247portapottyrental.com">Alaska</a></li>
+                <li><a href="https://az.247portapottyrental.com">Arizona</a></li>
+                <li><a href="https://ar.247portapottyrental.com">Arkansas</a></li>
+                <li><a href="https://ca.247portapottyrental.com">California</a></li>
+                <li><a href="https://co.247portapottyrental.com">Colorado</a></li>
+                <li><a href="https://ct.247portapottyrental.com">Connecticut</a></li>
+                <li><a href="https://de.247portapottyrental.com">Delaware</a></li>
+                <li><a href="https://fl.247portapottyrental.com">Florida</a></li>
+                <li><a href="https://ga.247portapottyrental.com">Georgia</a></li>
+                <li><a href="https://hi.247portapottyrental.com">Hawaii</a></li>
+                <li><a href="https://id.247portapottyrental.com">Idaho</a></li>
+                <li><a href="https://il.247portapottyrental.com">Illinois</a></li>
+                <li><a href="https://in.247portapottyrental.com">Indiana</a></li>
+                <li><a href="https://ia.247portapottyrental.com">Iowa</a></li>
+                <li><a href="https://ks.247portapottyrental.com">Kansas</a></li>
+                <li><a href="https://ky.247portapottyrental.com">Kentucky</a></li>
+                <li><a href="https://la.247portapottyrental.com">Louisiana</a></li>
+                <li><a href="https://me.247portapottyrental.com">Maine</a></li>
+                <li><a href="https://md.247portapottyrental.com">Maryland</a></li>
+                <li><a href="https://ma.247portapottyrental.com">Massachusetts</a></li>
+                <li><a href="https://mi.247portapottyrental.com">Michigan</a></li>
+                <li><a href="https://mn.247portapottyrental.com">Minnesota</a></li>
+                <li><a href="https://ms.247portapottyrental.com">Mississippi</a></li>
+                <li><a href="https://mo.247portapottyrental.com">Missouri</a></li>
+                <li><a href="https://mt.247portapottyrental.com">Montana</a></li>
+                <li><a href="https://ne.247portapottyrental.com">Nebraska</a></li>
+                <li><a href="https://nv.247portapottyrental.com">Nevada</a></li>
+                <li><a href="https://nh.247portapottyrental.com">New Hampshire</a></li>
+                <li><a href="https://nj.247portapottyrental.com">New Jersey</a></li>
+                <li><a href="https://nm.247portapottyrental.com">New Mexico</a></li>
+                <li><a href="https://ny.247portapottyrental.com">New York</a></li>
+                <li><a href="https://nc.247portapottyrental.com">North Carolina</a></li>
+                <li><a href="https://nd.247portapottyrental.com">North Dakota</a></li>
+                <li><a href="https://oh.247portapottyrental.com">Ohio</a></li>
+                <li><a href="https://ok.247portapottyrental.com">Oklahoma</a></li>
+                <li><a href="https://or.247portapottyrental.com">Oregon</a></li>
+                <li><a href="https://pa.247portapottyrental.com">Pennsylvania</a></li>
+                <li><a href="https://ri.247portapottyrental.com">Rhode Island</a></li>
+                <li><a href="https://sc.247portapottyrental.com">South Carolina</a></li>
+                <li><a href="https://sd.247portapottyrental.com">South Dakota</a></li>
+                <li><a href="https://tn.247portapottyrental.com">Tennessee</a></li>
+                <li><a href="https://tx.247portapottyrental.com">Texas</a></li>
+                <li><a href="https://ut.247portapottyrental.com">Utah</a></li>
+                <li><a href="https://vt.247portapottyrental.com">Vermont</a></li>
+                <li><a href="https://va.247portapottyrental.com">Virginia</a></li>
+                <li><a href="https://wa.247portapottyrental.com">Washington</a></li>
+                <li><a href="https://wv.247portapottyrental.com">West Virginia</a></li>
+                <li><a href="https://wi.247portapottyrental.com">Wisconsin</a></li>
+                <li><a href="https://wy.247portapottyrental.com">Wyoming</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="testimonial-text">"Excellent service! They delivered on time and the units were spotless. Will definitely use again for our next construction project."</div>
+                    <div class="testimonial-author">- Mike Johnson, Construction Manager</div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">"The luxury restroom trailer made our wedding perfect. Guests were impressed with the cleanliness and amenities."</div>
+                    <div class="testimonial-author">- Sarah Williams, Bride</div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">"Fast response time and competitive pricing. Their customer service team was helpful throughout the entire rental process."</div>
+                    <div class="testimonial-author">- David Chen, Event Coordinator</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">How quickly can you deliver a porta potty?</div>
+                <div class="faq-answer">We offer same-day delivery in most major cities and next-day delivery nationwide. Emergency rentals can be delivered within 2 hours in metropolitan areas.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">What's included with each rental?</div>
+                <div class="faq-answer">Each unit comes fully stocked with toilet paper, hand sanitizer, air freshener, and is thoroughly cleaned and sanitized before delivery.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">Do you offer weekly cleaning service?</div>
+                <div class="faq-answer">Yes, we provide weekly cleaning and maintenance service for all long-term rentals. This includes restocking supplies and thorough sanitization.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">What types of events do you serve?</div>
+                <div class="faq-answer">We serve construction sites, weddings, festivals, corporate events, sporting events, and any outdoor gathering that needs portable restroom facilities.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Rent? Get Your Free Quote Today!</h2>
+            <p>Call now for instant pricing and same-day delivery availability</p>
+            <a class="cta-btn" href="tel:+18336599080">Call (833) 659‑9080 Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <a href="#services">Standard Porta Potties</a>
+                    <a href="#services">Luxury Restroom Trailers</a>
+                    <a href="#services">ADA Compliant Units</a>
+                    <a href="#services">Hand Washing Stations</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <a href="about-us.html?c=8336599080">About Us</a>
+                    <a href="contact-us.html?c=8336599080">Contact</a>
+                    <a href="privacy-policy.html?c=8336599080">Privacy Policy</a>
+                    <a href="terms-of-service.html?c=8336599080">Terms of Service</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <a href="tel:+18336599080">📞 (833) 659‑9080</a>
+                    <p>Available 24/7 for emergencies</p>
+                    <p>Serving all 50 states</p>
+                </div>
+            </div>
+            <p>&copy; 2025 247 Porta Potty Rental | <a href="tel:+18336599080">(833) 659‑9080</a> | Nationwide Portable Toilet Rentals</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleFaq(element) {
+            const answer = element.nextElementSibling;
+            const isOpen = answer.style.display === 'block';
+            
+            // Close all FAQ answers
+            document.querySelectorAll('.faq-answer').forEach(ans => {
+                ans.style.display = 'none';
+            });
+            
+            // Open clicked answer if it wasn't already open
+            if (!isOpen) {
+                answer.style.display = 'block';
+            }
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
